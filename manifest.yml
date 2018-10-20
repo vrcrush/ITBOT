@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: ESVIT
+  host: ESVIT
+  disk_quota: 512M
+  services:
+  - Watson Assistant (formerly Conversation)-71
+  env:
+    'WEATHER_KEY ': 5aa2ca764b80f41a
